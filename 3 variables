@@ -1,0 +1,13 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if (a>b>c):
+    print("a is the greatest nunmber")
+elif (a<b<c):
+    print("c is the greatest number")
+elif (a<b)and(b<c):
+    print("a is the greatest number")
+elif (a<b)or(b<c):
+    print(" THE GREATEST NUMBER IS")
+else:
+    print("error")
